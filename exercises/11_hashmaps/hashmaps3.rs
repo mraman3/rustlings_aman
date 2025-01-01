@@ -9,6 +9,7 @@
 use std::collections::HashMap;
 
 // A structure to store the goal details of a team.
+#[derive(Default)]
 struct TeamScores {
     goals_scored: u8,
     goals_conceded: u8,
